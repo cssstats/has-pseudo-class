@@ -13,7 +13,11 @@ npm install --save has-pseudo-class
 ## Usage
 
 ```javascript
-// ...
+var hasPseudoClass = require('has-pseudo-class');
+
+hasPseudoClass('.some-selector:first-child');   // => true
+hasPseudoClass('.some-selector:not(.active)');  // => true
+hasPseudoClass('.some-selector');               // => false
 ```
 
 ## License
