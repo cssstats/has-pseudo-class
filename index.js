@@ -1,7 +1,12 @@
 'use strict';
 
-module.exports = function hasPseudoClass(options) {
-  options = options || {};
+var pseudoClasses = require('pseudo-classes')
 
-  return true;
+module.exports = function hasPseudoClass(selector) {
+  if (typeof selector != 'string') {
+    throw new TypeError('has-pseudo-class expects a string');
+  }
+
+  var pseudoClassRegex = new RegExp(':' + pseudoClasses().join('|:'), 'ig');
+  return pseudoClassRegex.test(selector);
 }

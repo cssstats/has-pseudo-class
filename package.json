@@ -14,15 +14,15 @@
     "type": "git",
     "url": "https://github.com/johnotander/has-pseudo-class.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/has-pseudo-class/issues"
   },
   "homepage": "https://github.com/johnotander/has-pseudo-class",
-  "dependencies": {},
+  "dependencies": {
+    "pseudo-classes": "0.0.1"
+  },
   "devDependencies": {
     "mocha": "*"
   }
