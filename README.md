@@ -1,6 +1,6 @@
 # has-pseudo-class
 
-[![Build Status](https://secure.travis-ci.org/johnotander/has-pseudo-class.png?branch=master)](https://travis-ci.org/johnotander/has-pseudo-class)
+[![Build Status](https://secure.travis-ci.org/cssstats/has-pseudo-class.png?branch=master)](https://travis-ci.org/cssstats/has-pseudo-class)
 
 Determine whether a selector contains a pseudo-class.
 
